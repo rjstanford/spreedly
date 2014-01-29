@@ -9,6 +9,7 @@ and call it thusly:
 
 ```
 Spreedly.tokenize({
+  environmentKey: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
   firstName: 'Bob',
   lastName: 'Smith',
   number: '4111111111111111',
