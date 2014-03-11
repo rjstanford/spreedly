@@ -9,7 +9,7 @@ and call it thusly:
 
 ```javascript
 Spreedly.tokenize({
-  environmentKey: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+  environmentKey: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
   firstName: 'Bob',
   lastName: 'Smith',
   number: '4111111111111111',
@@ -22,5 +22,5 @@ Spreedly.tokenize({
   error: function() {
     alert('Something went horribly wrong.');
   }
-}
+});
 ```
